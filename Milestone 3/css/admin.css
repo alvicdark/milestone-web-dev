@@ -1,0 +1,240 @@
+*{
+    background-color: #2f4f4f;
+}
+.webpage_name{
+   display: flex;
+   flex-wrap: wrap;
+    border: 1px black solid; 
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    left: 30px; 
+    z-index: 10;
+    width: 300px;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+.logo{
+    position: relative;
+}
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    overflow: hidden;
+    background-color: #2f4f41;
+    z-index: 20;
+    position: relative;
+    margin-left: 35%;  
+    float: right;
+    margin-bottom: 10px;
+}
+.main_nav{
+  
+    border: 1px black solid;
+    box-sizing: border-box;
+    position: fixed;
+    top: 350px;
+    left: 2%;
+    width: 100px;
+    height: 100px;
+    background-color: #2f4f4f;
+    z-index: 6;  
+    overflow: hidden; 
+    transition: top 0.3s; 
+    text-align: left;
+    border-radius: 6%;
+}
+
+.main_nav:hover{
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.6s;
+    width: 155px;
+    height: 45%;
+    border: 1px wheat solid;
+    z-index: 25;
+}
+.navhome,.navesearch{
+background-color:  #395b48;
+}
+.txt_nav{
+    color:#e5eae7;
+    background-color: #2f4f4f;
+   text-align: left;
+    
+}
+.navtext{
+    background-color: #2f4f4f;
+    position: relative;
+    color: cornsilk;
+    text-align: left;
+}
+ul{
+    text-align: left;
+}
+#navtitle{
+    text-align: left;
+    
+}
+.download{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10% 10% ;
+    width: 80%;
+    height: 600px;
+    border: 1px black solid;
+}
+.upload{
+    position: relative;
+    margin: auto ;
+    width: 80%;
+    height: 600px;
+    border: 1px black solid;
+}
+.search{
+    border: 1px white solid;
+    margin: auto 5%;  
+    box-sizing: border-box;
+    object-position: center;
+}
+
+.search input[type=text] {
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: #d4d4d4;
+    margin: 1%;
+
+  }
+  .search button {
+    float: left;
+    padding: 10px;
+    background: #63b9ff;
+    color: white;
+    font-size: 90%;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 1%;
+   
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  
+ .search button:hover {
+    background: #0b7dda;
+  }
+  
+ .search::after {
+    content: "";
+    clear: both;
+    display: table;
+ } 
+.downloadbox{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 800px;
+    height: 450px;
+    border: 1px black solid;
+}
+#downloadbutton,#uploadbutton{
+    background-color: rgb(103, 164, 255);
+    margin-top: 2%;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    width: 80px;
+}
+
+.draganddrop{
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 30%;
+    border: 1px rgb(255, 255, 255) solid;
+}
+.draganddroptxt{
+    color: whitesmoke;
+    font-size: 40px;
+   margin: 30% 20%;
+}
+
+.uploadfrom{
+    position: relative;
+    margin: auto;
+    border: 1px black solid;
+    width: 55%;
+    color: rgb(255, 255, 255);
+    
+
+}
+.uploadlist{
+   
+    position: relative;
+    margin-left: 30%;
+   
+}
+
+.company_info{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 70px;
+    position: relative;
+    z-index: 12;
+}
+.webpage_logox{
+    border: 1px black solid; 
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    height: 160px;
+    width: 200px;
+}
+.logoB{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.socialmediaB{
+    
+    position: relative;
+    background: transparent;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 10px black solid;
+    height: 20px;
+    width: 20px;
+    float: left;
+    border: 1px transparent solid;
+}
+.socialmediabuttonB{
+   
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px black solid;
+
+}
+.copyright{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 100px;
+   
+    overflow: hidden;
+}
