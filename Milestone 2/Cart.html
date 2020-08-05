@@ -31,22 +31,47 @@
             </div>
         </div>
         <div class="cart_back">
-            <div class="product">
-                <div class="nike">
-                    <img class="product_images" id="nike8" src="img/nike8.jfif" alt="Shoe.x">
-                    <div class="product_txt">Air Jordan 1 Mid SE<br>£125</div>
-                </div> 
-            </div> 
-            <div class="product">
-                <div class="nike">
-                    <img class="product_images" id="nike16" src="img/nike16.jfif" alt="Shoe.x">
-                    <div class="product_txt">Nike Air Force 1<br>£150</div>
+            <div class="cartshell">
+                <div class="product">
+                        <div class="nike">
+                            <img class="product_images" id="nike8" src="img/nike8.jfif" alt="Shoe.x">
+                            <div class="product_txt">Air Jordan 1 Mid SE<br>£125</div>
+                        </div> 
+                </div>
+                <div class="cartshellcont">
+                    <button type="submit" class="bt">Remove Item</button>
+                    <label for="numberofitems" class="numberofitems">Number of items</label>
+                    <input type="number" name="numberofitems" id="numberofitems" class="numberofitems">
                 </div>
             </div> 
-            
+            <div class="cartshell">
+                <div class="product">
+                        <div class="nike">
+                            <img class="product_images" id="nike16" src="img/nike16.jfif" alt="Shoe.x">
+                    <div class="product_txt">Nike Air Force 1<br>£150</div>
+                        </div> 
+                </div>
+                <div class="cartshellcont">
+                    <button type="submit" class="bt">Remove Item</button>
+                    <label for="numberofitems" class="numberofitems">Number of items</label>
+                    <input type="number" name="numberofitems" id="numberofitems" class="numberofitems">
+                </div>
+            </div> 
+          
+            <button type="submit" class="bt">Remove Items</button>
         </div>
         <div class="totals">
-            
+            <label for="itemcode">Item Code</label>
+            <input type="number" id="itemcode" name="itemcode"><br>
+            <label for="numberofitems">Number of items</label>
+            <input type="number" id="numberofitems" name="numberofitems"><br>
+            <label for="cost">Cost per item</label>
+            <output name="cost" for="cost"></output>
+            <label for="Names" >Names</label>
+            <input type="text" id="names" name="names"><br>
+            <label for="total">Totals</label>
+            <output name="total" for="numberofitems cost"></output>
+
         </div>
         <div class="buttons">
             <a class="back" href="Products.html#nike18">back<img class="icon" src="img/icons8-go-back-64.png" alt="back" title="back" width="40" height="40"></a>
