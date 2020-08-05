@@ -21,19 +21,65 @@
                     <li class="navtext"><A class="navtext" href="#search"><img class="icon" id="navsearch" src="img/icons8-search-64.png" alt="search" title="search" width="30" height="30"></A></li>
                     <li class="navtext"><a class="navtext" href="#categoies">categories</a>
                         <ul class="navtext">
-                            <li class="navtext"><a class="navtext" href="#male">Male</a></li>
-                            <li class="navtext"><a class="navtext" href="#female">Female</a></li>
-                            <li class="navtext"><a class="navtext" href="#nike">Nike</a></li>
-                            <li class="navtext"><a class="navtext" href="#prada">Prada</a></li>
-                            <li class="navtext"><a class="navtext" href="#adidas">Adidas</a></li>
-                            <li class="navtext"><a class="navtext" href="#reebok">Reebok</a></li>
-                            <li class="navtext"><a class="navtext" href="#fila">Fila</a></li>
+                            <li class="navtext"><a class="navtext" href="Bulkuploadanddownload.html">bulk upload</a></li>
+                            <li class="navtext"><a class="navtext" href="Productedit.html">product edit page</a></li>
+                            <li class="navtext"><a class="navtext" href="">Sign out</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
+            <div class="searchx" id="search">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><img class="icon" src="img/icons8-search-64.png" alt="search" title="search" width="25" height="25"></button>
+            </div>
+        <form class="edit">
+            <div class="select">
+                <label for="Categories">Select item  .</label>
+                <select id="Categories" name="caregories">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Nike">Nike</option>
+                    <option value="Adidas">Adidas</option>
+                    <option value="Prada">Prada</option>
+                    <option value="Reebok">Reebok</option>
+                    <option value="Fila">Fila</option>
+                </select>
+                <select name="shoes" id="shoes">
+                    <option value="Nike Air Max 90">Nike Air Max 90</option><option value="Nike Air Max 98">Nike Air Max 98</option>
+                    <option value="Nike Air Max 95">Nike Air Max 95</option><option value="Nike Air Max 97">Nike Air Max 97</option>
+                    <option value="Air Jordan 1 Mid SE">Air Jordan 1 Mid SE</option><option value="Nike Air Force 1">Nike Air Force 1</option>
+                    <option value="ULTRABOOST DNA TOKYO SHOES">ULTRABOOST DNA TOKYO SHOES</option><option value="ZX 2K 4D SHOES">ZX 2K 4D SHOES</option>
+                    <option value="Cloudbust Thunder Technical Fabric Sneakers">Cloudbust Thunder Technical Fabric Sneakers</option><option value="Leather booties">Leather booties</option>
+                    <option value="Block Leather And Technical Fabric Sneakers">Block Leather And Technical Fabric Sneakers</option><option value="ZIGWILD TRAIL 6 MEN'S SHOES">ZIGWILD TRAIL 6 MEN'S SHOES</option>
+                    <option value="EX-O-FIT HI MEN'S SHOES">EX-O-FIT HI MEN'S SHOES</option><option value="NANO X PRIDE SHOES">NANO X PRIDE SHOES</option>
+                    <option value="TRAIL CRUISER MEN'S SHOES">TRAIL CRUISER MEN'S SHOES</option><option value="TRAIL CRUISER MEN'S SHOES">TRAIL CRUISER MEN'S SHOES</option>
+                    <option value="FILA DISRUPTOR LOW WMN">FILA DISRUPTOR LOW WMN</option><option value="Men's Grant Hill 2">Men's Grant Hill 2</option>
+                    
+                </select>
+            </div>
+            
+            <label for="productid" class="editfield">Product ID</label>
+            <output title="Product ID" name="product ID" id="productid" class="editfield"></output><br>
+            <label for="names">Name</label>
+            <input type="text" name="names"id="names" class="editfield"><br>
+            <label for="description">Description</label>
+            <textarea type="text" id="description" name="description" class="editfield"></textarea><br>
+            <label for="category">Category</label>
+            <input type="text" id="category" name="category" class="editfield"><br>
+            <label for="imagepath">Image path</label>
+            <input type="file" name="iamgepath" id="imagepath" class="editfield"><br>
+            <label for="price">Price</label>
+            <input type="number" name="price" id="price" class="editfield"><br>
+            <label for="featered">Featered</label>
+            <input type="radio" name="featered" id="Featered" class="editfield"><br>
+            <label for="colour">Colour</label>
+            <input type="color" name="colour" id="colour" class="editfield"><br>
+            <label for="size">Size</label>
+            <input type="number" name="number" id="number" class="editfield"><br>
 
+        </form>
+        <button type="submit" class="bt">Submit</button>
     </body>
     <footer>
         <div class="footer">
